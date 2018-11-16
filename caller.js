@@ -37,3 +37,8 @@ function caller() {
 }
 exports.caller = caller;
 ;
+function position() {
+    var pos = caller();
+    return pos.filename_base + ":" + pos.line_no;
+}
+exports.position = position;

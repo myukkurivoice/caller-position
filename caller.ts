@@ -34,3 +34,7 @@ export function caller() {
         line_pos: line_pos,
     };
 };
+export function position() {
+    const pos = caller();
+    return `${pos.filename_base}:${pos.line_no}`;
+}

@@ -17,14 +17,18 @@ npm install --save git+https://github.com/taku-o/caller-position#master
 As a node module:
 
 ```js
-var mod = require('caller-position');
+var caller = require('caller-position');
 
-console.log(mod.caller());
+console.log(caller.caller());
+
+console.log(caller.position());
 ```
 
-returning value example is,
+returning value example are,
 
 ```
 { filename_base: 'test.js', line_no: '3', line_pos: '20' }
+
+test.js:3
 ```
 
