@@ -1,7 +1,7 @@
 {
   "name": "caller-position",
   "version": "0.1.0",
-  "description": "node module for returning caller filename, and line number.",
+  "description": "node module to get caller filename, and line number.",
   "main": "caller.js",
   "scripts": {
     "build": "tsc",

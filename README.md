@@ -1,4 +1,4 @@
-# caller-position -- node module for returning caller filename, and line number.
+# caller-position -- node module to get caller filename, and line number.
 ===========================================
 
 ## Description
