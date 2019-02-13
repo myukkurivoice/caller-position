@@ -1,7 +1,15 @@
 "use strict";
 exports.__esModule = true;
 function caller() {
-    var stackLine = (new Error).stack.split("\n")[2];
+    var stack = (new Error).stack;
+    if (!stack) {
+        return { filename_base: '', line_no: 0, line_pos: 0 };
+    }
+    var stackSplitted = stack.split("\n");
+    if (stackSplitted.length < 3) {
+        return { filename_base: '', line_no: 0, line_pos: 0 };
+    }
+    var stackLine = stackSplitted[2];
     var caller_line = stackLine.slice(stackLine.lastIndexOf('/'), stackLine.lastIndexOf(')'));
     if (caller_line.length == 0) {
         caller_line = stackLine.slice(stackLine.lastIndexOf('('), stackLine.lastIndexOf(')'));
@@ -18,7 +26,15 @@ function caller() {
 exports.caller = caller;
 ;
 function position() {
-    var stackLine = (new Error).stack.split("\n")[2];
+    var stack = (new Error).stack;
+    if (!stack) {
+        return { filename_base: '', line_no: 0, line_pos: 0 };
+    }
+    var stackSplitted = stack.split("\n");
+    if (stackSplitted.length < 3) {
+        return { filename_base: '', line_no: 0, line_pos: 0 };
+    }
+    var stackLine = stackSplitted[2];
     var caller_line = stackLine.slice(stackLine.lastIndexOf('/'), stackLine.lastIndexOf(')'));
     if (caller_line.length == 0) {
         caller_line = stackLine.slice(stackLine.lastIndexOf('('), stackLine.lastIndexOf(')'));

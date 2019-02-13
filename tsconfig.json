@@ -11,7 +11,7 @@
     "listFiles": false,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false, // temporary
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": false,
     "noUnusedLocals": false,
@@ -21,7 +21,7 @@
     "skipDefaultLibCheck": false,
     "skipLibCheck": false,
     "sourceMap": false,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "traceResolution": false,
     "lib": [
       "dom",
