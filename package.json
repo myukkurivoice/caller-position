@@ -1,6 +1,6 @@
 {
-  "name": "caller-position",
-  "version": "0.1.0",
+  "name": "@taku-o/caller-position",
+  "version": "0.1.1",
   "description": "node module to get caller filename, and line number.",
   "main": "caller.js",
   "scripts": {
@@ -10,7 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:taku-o/caller-position.git"
+    "url": "git://github.com/taku-o/caller-position.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "javascript"
@@ -21,7 +24,7 @@
     "email": "mail@nanasi.jp"
   },
   "author": "taku-o <mail@nanasi.jp> (http://nanasi.jp/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^10.11.7",
