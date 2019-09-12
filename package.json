@@ -1,6 +1,6 @@
 {
   "name": "caller-position",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "node module to get caller filename, and line number.",
   "main": "caller.js",
   "scripts": {
