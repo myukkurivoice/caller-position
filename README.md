@@ -9,7 +9,7 @@ to use for debug, and testing.
 ## Install
 
 ```bash
-npm install --save @taku-o/caller-position
+npm install --save git+https://github.com/taku-o/caller-position#master
 ````
 
 ## Usage
@@ -17,7 +17,7 @@ npm install --save @taku-o/caller-position
 As a node module:
 
 ```js
-var caller = require('@taku-o/caller-position');
+var caller = require('caller-position');
 
 console.log(caller.caller());
 
