@@ -1,6 +1,6 @@
 {
   "name": "caller-position",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "node module to get caller filename, and line number.",
   "main": "caller.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/taku-o/caller-position.git"
+    "url": "git://github.com/myukkurivoice/caller-position.git"
   },
   "publishConfig": {
     "access": "public"
@@ -18,9 +18,9 @@
   "keywords": [
     "javascript"
   ],
-  "homepage": "https://github.com/taku-o/caller-position",
+  "homepage": "https://github.com/myukkurivoice/caller-position",
   "bugs": {
-    "url": "https://github.com/taku-o/caller-position/issues",
+    "url": "https://github.com/myukkurivoice/caller-position/issues",
     "email": "mail@nanasi.jp"
   },
   "author": "taku-o <mail@nanasi.jp> (http://nanasi.jp/)",

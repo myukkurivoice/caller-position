@@ -9,7 +9,7 @@ to use for debug, and testing.
 ## Install
 
 ```bash
-npm install --save git+https://github.com/taku-o/caller-position#master
+npm install --save git+https://github.com/myukkurivoice/caller-position#master
 ````
 
 ## Usage
